@@ -1,1 +1,1 @@
-# For-Fun
+# Coding challenge

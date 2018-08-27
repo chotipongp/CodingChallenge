@@ -1,15 +1,15 @@
-let size = 8;
+let size = 8
 
-let output = "";
+let output = ''
 
 for (let i = 0; i < size; i++) {
   for (let j = 0; j < size; j++) {
     if ((i + j) % 2 == 0) {
-      output += " ";
+      output += ' '
     } else {
-      output += "#";
+      output += '#'
     }
   }
-  output += "\n";
+  output += '\n'
 }
-console.log(output);
+console.log(output)

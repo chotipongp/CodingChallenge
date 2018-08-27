@@ -1,16 +1,16 @@
 function countChar(string, ch) {
-  let counted = 0;
+  let counted = 0
   for (let i = 0; i < string.length; i++) {
     if (string[i] == ch) {
-      counted += 1;
+      counted += 1
     }
   }
-  return counted;
+  return counted
 }
 
 function countBs(string) {
-  return countChar(string, "B");
+  return countChar(string, 'B')
 }
 
-console.log(countBs("BABANABA"));
-console.log(countChar("uvuwuvuuwuvuwu", "u"));
+console.log(countBs('BABANABA'))
+console.log(countChar('uvuwuvuuwuvuwu', 'u'))

@@ -17,3 +17,6 @@ console.log(neighbor.test('neighbor')) //true
 
 let dateTime2 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/
 console.log(dateTime2.test('30-1-2003 8:45')) //true
+
+let cartoonCrying = /boo+(hoo+)+/i
+console.log(cartoonCrying.test('Boohoooohoohooo')) //true

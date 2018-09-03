@@ -2,4 +2,6 @@
 
 - 100 Days programming challenge
 
-Tasks JS from ELOQUENT JAVASCRIPT 3RD EDITION
+## Sources
+- ELOQUENT JAVASCRIPT 3RD EDITION
+- EXPLORING ES6

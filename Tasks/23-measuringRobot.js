@@ -6,7 +6,7 @@ let notBinary = /[^01]/
 console.log(notBinary.test('1101011010110')) //false
 console.log(notBinary.test('1101011010112')) //true
 
-console.log(/'\d+'/.test("'123'"))
-console.log(/'\d+'/.test("''"))
-console.log(/'\d*'/.test("'123'"))
-console.log(/'\d*'/.test("''"))
+console.log(/'\d+'/.test("'123'")) //true
+console.log(/'\d+'/.test("''")) // false
+console.log(/'\d*'/.test("'123'")) //true
+console.log(/'\d*'/.test("''")) //true

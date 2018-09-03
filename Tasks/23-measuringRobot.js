@@ -20,3 +20,8 @@ console.log(dateTime2.test('30-1-2003 8:45')) //true
 
 let cartoonCrying = /boo+(hoo+)+/i
 console.log(cartoonCrying.test('Boohoooohoohooo')) //true
+
+let match = /\d+/.exec('one two 100')
+console.log(match)
+console.log(match.index)
+console.log('one two 100'.match(/\d+/))

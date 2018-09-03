@@ -14,3 +14,6 @@ console.log(/'\d*'/.test("''")) //true
 let neighbor = /neighbou?r/
 console.log(neighbor.test('neighbour')) //true
 console.log(neighbor.test('neighbor')) //true
+
+let dateTime2 = /\d{1,2}-\d{1,2}-\d{4} \d{1,2}:\d{2}/
+console.log(dateTime2.test('30-1-2003 8:45')) //true
